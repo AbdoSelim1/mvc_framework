@@ -1,0 +1,29 @@
+{
+    "name": "webapp_mvc/webapp_mvc",
+    "description": "we are building a framework using php languge , We will make sure to solve the thorny problems that you face from the developers, as well as add features that were not before.",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "symfony/dotenv": "^6.2",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "App\\" : "app/"
+        },
+        "files": [
+            "src/Services/helpars/general.php",
+            "src/Services/helpars/http.php",
+            "src/Services/helpars/pathing.php",
+            "src/Services/helpars/dirctives.php",
+            "src/Services/helpars/display.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Abdo Selim"
+        }
+    ]
+}
